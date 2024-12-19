@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #020303;
+}
+
+.header {
+    padding: 30px 0 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.block-logo {
+    box-sizing: border-box;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-logo img {
+    width: 56px;
+    margin-right: 11px;
+    display: inline-block;
+}
+
+.text-logo {
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 60px;
+    display: inline-block;
+}
+
+.menu {
+    margin-left: 282px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li:nth-child(1) {
+    margin-right: 58px;
+}
+
+.menu ul li:nth-child(2) {
+    margin-right: 59px;
+}
+
+.menu ul li:nth-child(3) {
+    margin-right: 54px;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #ffaf18;
+    border-bottom: 2px solid #ffaf18;
+}
+
+.main {
+    padding-top: 133px;
+}
+
+.main .container {
+    font-size: 0;
+}
+
+.block-title {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-bottom: 125px;
+}
+
+.main-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 564px;
+}
+
+.main-title div {
+    display: inline-block;
+    font-size: 45px;
+    color: #ffaf18;
+    font-weight: bold;
+    line-height: 1.222;
+}
+
+.main-subtitle {
+    margin-top: 74px;
+    margin-bottom: 92px;
+}
+
+.main-subtitle-group1 {
+    margin-right: 99px;
+    display: inline-block;
+}
+
+.main-subtitle img {
+    margin-right: 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-subtitle-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.main-subtitle-group2 {
+    display: inline-block;
+}
+
+.main-action {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    border-radius: 30px;
+    padding: 22px 54px 23px 54px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+}
+
+.main-action:hover {
+    box-shadow: 0 3px 20px rgba(255, 175, 24, 0.5);
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 22px;
+}
+
+
+.list-sushi {
+    margin: 120px 0;
+    font-size: 0;
+}
+
+
+.list-sushi-title {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+}
+
+.list-sushi-items {
+    font-size: 0;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.list-sushi-item {
+    margin: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 282px;
+    background: white;
+    text-align: center;
+    padding: 10px 20px 15px 20px;
+    box-sizing: border-box;
+}
+
+.list-sushi-item:hover {
+    box-shadow: 0 0 0 5px #ffa700;
+}
+
+
+.list-sushi-item img {
+    margin-bottom: 24px;
+}
+
+.list-sushi-name {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    line-height: 3.056;
+}
+
+.list-sushi-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    margin-bottom: 15px;
+    height: 51px;
+}
+
+.list-sushi-action {
+    background-color: #ffaf18;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+    width: 242px;
+    padding: 17px 80px;
+}
+
+.list-sushi-action:hover {
+    box-shadow: 0 0 20px #ffa700;
+}
+
+.block-info {
+    padding-top: 120px;
+    padding-bottom: 67px;
+}
+
+.block-info .container {
+    font-size: 0;
+}
+
+.block-info-about {
+    display: inline-block;
+    max-width: 385px;
+    vertical-align: bottom;
+}
+
+.block-info-about-title {
+    margin-bottom: 60px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    max-width: 367px;
+}
+
+.block-info-about-subtitle {
+    margin-bottom: 100px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    max-width: 385px;
+}
+
+
+.block-info-about-detail {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    width: 351px;
+}
+
+
+.block-info-about-action {
+    display: inline-block;
+}
+
+
+.action {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.action.action-onigiri {
+    background: white;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding-top: 12px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.action.action-sushi {
+    margin-left: 40px;
+    background: white;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.action.action-tuna {
+    margin-left: 40px;
+    background: white;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding-top: 14px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.action:hover {
+    box-shadow: 0 0 10px white;
+}
+
+.block-info-about-me-image {
+    margin-left: 47px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.footer{
+    padding: 30px 0 30px 0;
+    background: #000;
+}
+
+.footer-rights {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 390px;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root{
+        scroll-behavior: smooth;
+    }
+}
