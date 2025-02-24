@@ -16,12 +16,18 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.header .container {
+    display: grid;
+    grid-template-columns: 127px 1fr 489px;
+    align-items: center;
+}
 .block-logo {
     box-sizing: border-box;
     font-size: 0;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    width: 127px;
+
 }
 
 .logo {
@@ -31,7 +37,6 @@ body {
 
 .block-logo img {
     width: 56px;
-    margin-right: 11px;
     display: inline-block;
 }
 
@@ -56,29 +61,18 @@ body {
 
 .menu ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 489px;
 }
 
-.menu ul li {
-    display: inline-block;
-}
 
-.menu ul li:nth-child(1) {
-    margin-right: 58px;
-}
-
-.menu ul li:nth-child(2) {
-    margin-right: 59px;
-}
-
-.menu ul li:nth-child(3) {
-    margin-right: 54px;
-}
 
 .menu ul li a {
     font-size: 16px;
     color: rgb(253, 239, 213);
-    line-height: 1.2;
-    vertical-align: middle;
+    line-height: 1;
     text-decoration: none;
 }
 
@@ -93,13 +87,17 @@ body {
 
 .main .container {
     font-size: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .block-title {
-    display: inline-block;
-    vertical-align: middle;
-    box-sizing: border-box;
-    padding-bottom: 125px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .main-title {
@@ -115,7 +113,7 @@ body {
     font-size: 45px;
     color: #ffaf18;
     font-weight: bold;
-    line-height: 1.222;
+    line-height: 1;
 }
 
 .main-subtitle {
@@ -150,14 +148,14 @@ body {
     background-color: rgb(255, 175, 24);
     width: 224px;
     border-radius: 30px;
-    padding: 22px 54px 23px 54px;
+    padding: 22px 22px;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 16px;
     color: rgb(2, 3, 3);
     font-weight: bold;
-    line-height: 3.438;
+    line-height: 1;
 }
 
 .main-action:hover {
@@ -167,8 +165,9 @@ body {
 .main-image {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 22px;
+
 }
+
 
 
 .list-sushi {
@@ -179,7 +178,7 @@ body {
 
 .list-sushi-title {
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
     font-size: 35px;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -188,12 +187,13 @@ body {
 
 .list-sushi-items {
     font-size: 0;
-    margin-right: -12px;
-    margin-left: -12px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .list-sushi-item {
-    margin: 12px;
     display: inline-block;
     vertical-align: middle;
     width: 282px;
@@ -201,6 +201,7 @@ body {
     text-align: center;
     padding: 10px 20px 15px 20px;
     box-sizing: border-box;
+
 }
 
 .list-sushi-item:hover {
@@ -252,6 +253,9 @@ body {
 
 .block-info .container {
     font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .block-info-about {
@@ -341,7 +345,6 @@ body {
 }
 
 .block-info-about-me-image {
-    margin-left: 47px;
     display: inline-block;
     vertical-align: bottom;
 }
@@ -349,18 +352,34 @@ body {
     padding: 30px 0 30px 0;
     background: #000;
 }
-
+.footer .container{
+    display: flex;;
+    align-items: center;
+}
 .footer-rights {
     display: inline-block;
     vertical-align: middle;
     margin-left: 390px;
     font-size: 12px;
     color: rgb(44, 44, 44);
-    line-height: 1.2;
+    align-self: center;
 }
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
     :root{
         scroll-behavior: smooth;
     }
+}
+
+.burger{
+    display: none;
+}
+
+
+
+.close{
+    display: none;
 }
